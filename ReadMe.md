@@ -16,12 +16,15 @@ Features:
 - ReadMe.md and .gitignore for GitHub
 - secrets are not hidden
 
-## Demo
+## Run
+
+### Docker
 
 Download, build an image with Docker and run on port 5000. The image is also available from my Docker Hub: ```jastr945/flask_boilerplate:v1.0```
 
+### Traditional way
 
-...Or create a virtual environment and do:
+...Or create a Python virtual environment and run:
 ```sh
 $ export FLASK_APP=app.py
 $ flask initdb
